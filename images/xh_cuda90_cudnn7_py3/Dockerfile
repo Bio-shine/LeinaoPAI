@@ -28,7 +28,7 @@ ENV LD_LIBRARY_PATH /usr/lib/x86_64-linux-gnu:/usr/local/cuda-9.2/lib64:$LD_LIBR
 
 RUN pip install --no-cache-dir wheel  setuptools
 RUN pip install --no-cache-dir pillow  scikit-learn  Cython  easydict  hickle  pyyaml  matplotlib   scikit-image    \
-	lxml  tensorflow_gpu==1.13.1  h5py  pydot_ng  keras==2.2.4  opencv-python  tqdm  threadpool  torch==1.1.0  torchvision tensorboardX    \
+	lxml  tensorflow_gpu==1.12.0  h5py  pydot_ng  keras==2.2.4  opencv-python  tqdm  threadpool  torch==1.1.0  torchvision tensorboardX    \
         nibabel  numpy  pandas  scipy  jupyter  jupyter-tensorboard
 
 EXPOSE 6006
